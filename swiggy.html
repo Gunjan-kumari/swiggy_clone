@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Food & Groceries - Swiggy Clone</title>
+  <link rel="stylesheet" href="swiggystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <header class="hero-section">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="assets/swiggy_logo_white.png" class="logo-img">
+        
+      </div>
+      <div class="nav-links">
+        <a>Swiggy Corporate</a>
+        <a>Partner with us</a>
+        <a class="btn-app">Get the App</a>
+        <a class="btn-signin">Sign in</a>
+      </div>
+    </nav>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+      <h1>Order food & groceries. Discover best restaurants. Swiggy it!</h1>
+      
+      <div class="search-bar">
+        <div class="location-input">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter your delivery location">
+            <i class="fa-solid fa-chevron-down arrow-icon"></i>
+        </div>
+        <div class="food-input">
+          <input type="text" placeholder="Search for restaurant, item or more">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service Cards -->
+    <div class="service-cards-container">
+      <div class="service-card">
+        <div class="card-text">
+          <h3>FOOD DELIVERY</h3>
+          <p class="subtext">FROM RESTAURANTS</p>
+          <span class="badge">UPTO 60% OFF</span>
+        </div>
+        <img src="assets/food_delivery.png" alt="Food Delivery" class="card-img">
+      </div>
+
+      <div class="service-card">
+        <div class="card-text">
+          <h3>INSTAMART</h3>
+          <p class="subtext">INSTANT GROCERY</p>
+          <span class="badge">UPTO 60% OFF</span>
+        </div>
+        <img src="assets/instamart.png" alt="Instamart Grocery" class="card-img">
+      </div>
+
+      <div class="service-card">
+        <div class="card-text">
+          <h3>DINEOUT</h3>
+          <p class="subtext">EAT OUT & SAVE MORE</p>
+          <span class="badge">UPTO 50% OFF</span>
+        </div>
+        <img src="assets/dineout.png" alt="Dineout" class="card-img">
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION 1: FOOD OPTIONS -->
+  <section class="section-container">
+    <div class="section-header">
+      <h2>Order our best food options</h2>
+      <div>
+        <button class="circle-btn"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="circle-btn"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+
+    <div class="category-grid">
+      <div class="category-item">
+        <img src="assets/North Indian.png" alt="North Indian" class="circle-img">
+        <p>North Indian</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/Paratha.png" alt="Paratha" class="circle-img">
+        <p>Paratha</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/Desserts.png" alt="Desserts" class="circle-img">
+        <p>Desserts</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/Burger.png" alt="Burger" class="circle-img">
+        <p>Burger</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/Pizza.png" alt="Pizza" class="circle-img">
+        <p>Pizza</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/South Indian.png" alt="South Indian" class="circle-img">
+        <p>South Indian</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/Chole Bhature.png" alt="Chole Bhature" class="circle-img">
+        <p>Chole Bhature</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/Vada.png" alt="Vada" class="circle-img">
+        <p>Vada</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/Rolls.png" alt="Rolls" class="circle-img">
+        <p>Rolls</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/Biryani.png" alt="Biryani" class="circle-img">
+        <p>Biryani</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/Pakoda.png" alt="Pakoda" class="circle-img">
+        <p>Pakoda</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/Chinese.png" alt="Chinese" class="circle-img">
+        <p>Chinese</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/Pasta.png" alt="Pasta" class="circle-img">
+        <p>Pasta</p>
+      </div>
+      <div class="category-item">
+        <img src="assets/Salad.png" alt="Salad" class="circle-img">
+        <p>Salad</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: INSTAMART GROCERIES -->
+  <section class="section-container">
+    <div class="section-header">
+      <h2>Shop groceries on Instamart</h2>
+      <div>
+        <button class="circle-btn"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="circle-btn"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+
+    <div class="grocery-grid">
+      <div class="grocery-card">
+        <img src="assets/veggies_new.png" alt="Fresh Vegetables" class="rect-img">
+        <p>Fresh Vegetables</p>
+      </div>
+      <div class="grocery-card">
+        <img src="assets/fruits.png" alt="Fresh Fruits" class="rect-img">
+        <p>Fresh Fruits</p>
+      </div>
+      <div class="grocery-card">
+        <img src="assets/dairy.png" alt="Dairy, Bread and Eggs" class="rect-img">
+        <p>Dairy, Bread and Eggs</p>
+      </div>
+      <div class="grocery-card">
+        <img src="assets/grocery.png" alt="Rice, Atta and Dals" class="rect-img">
+        <p>Rice, Atta and Dals</p>
+      </div>
+      <div class="grocery-card">
+        <img src="assets/sauces.png" alt="Masalas and Dry Fruits" class="rect-img">
+        <p>Masalas and Dry Fruits</p>
+      </div>
+      <div class="grocery-card">
+        <img src="assets/bakery.png" alt="Oils and Ghee" class="rect-img">
+        <p>Oils and Ghee</p>
+      </div>
+      <div class="grocery-card">
+        <img src="assets/namkeen.png" alt="Munchies" class="rect-img">
+        <p>Munchies</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: DINEOUT RESTAURANTS -->
+  <section class="section-container">
+    <div class="section-header">
+      <h2>Discover best restaurants on Dineout</h2>
+      <div>
+        <button class="circle-btn"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="circle-btn"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+
+    <div class="dineout-grid">
+      <!-- Restaurant Card 1 -->
+      <div class="restaurant-card">
+        <img src="assets/place_14.JPG" alt="Fluid - Rooftop Bar Lounge" class="restaurant-img">
+        <div class="restaurant-details">
+          <div class="card-row">
+            <h3 class="res-title">Fluid - Rooftop Bar Lounge</h3>
+            <span class="rating"><i class="fa-solid fa-star"></i> 4.5</span>
+          </div>
+          <div class="card-row sub-info">
+            <span>Chinese • North Indian</span>
+            <span>₹1500 for two</span>
+          </div>
+          <div class="card-row sub-info">
+            <span>Chironwali, Dehradun</span>
+            <span>5.9 km</span>
+          </div>
+          <div class="offer-tag">
+            <span><i class="fa-solid fa-percentage"></i> Flat 50% off on pre-booking</span>
+            <span class="more-tag">+5 more</span>
+          </div>
+          <div class="bank-offer">Up to 10% off with bank offers</div>
+          <div class="promo-offer">Get extra 5% off using TRYNEW</div>
+        </div>
+      </div>
+
+      <!-- Restaurant Card 2 -->
+      <div class="restaurant-card">
+        <img src="assets/place_13.JPG" alt="Biryani By Kilo" class="restaurant-img">
+        <div class="restaurant-details">
+          <div class="card-row">
+            <h3 class="res-title">Biryani By Kilo</h3>
+            <span class="rating"><i class="fa-solid fa-star"></i> 3.8</span>
+          </div>
+          <div class="card-row sub-info">
+            <span>Biryani • North Indian</span>
+            <span>₹700 for two</span>
+          </div>
+          <div class="card-row sub-info">
+            <span>Ballupur, Dehradun</span>
+            <span>1.2 km</span>
+          </div>
+          <div class="offer-tag">
+            <span><i class="fa-solid fa-percentage"></i> Flat 20% off on pre-booking</span>
+            <span class="more-tag">+2 more</span>
+          </div>
+          <div class="bank-offer">Up to 10% off with bank offers</div>
+          <div class="promo-offer">Get extra ₹125 off using PAYTMNEW</div>
+        </div>
+      </div>
+
+      <!-- Restaurant Card 3 -->
+      <div class="restaurant-card">
+        <img src="assets/place_12.jpg" alt="Allen & Marlee Rooftop" class="restaurant-img">
+        <div class="restaurant-details">
+          <div class="card-row">
+            <h3 class="res-title">Allen & Marlee Rooftop</h3>
+            <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+          </div>
+          <div class="card-row sub-info">
+            <span>Italian • North Indian</span>
+            <span>₹1500 for two</span>
+          </div>
+          <div class="card-row sub-info">
+            <span>Ballupur, Dehradun</span>
+            <span>1.3 km</span>
+          </div>
+          <div class="offer-tag">
+            <span><i class="fa-solid fa-percentage"></i> Flat 30% off on pre-booking</span>
+            <span class="more-tag">+3 more</span>
+          </div>
+          <div class="bank-offer">Up to 10% off with bank offers</div>
+          <div class="promo-offer">Get extra ₹125 off using PAYTMNEW</div>
+        </div>
+      </div>
+
+      <!-- Restaurant Card 4 -->
+      <div class="restaurant-card">
+        <img src="assets/place_17.jpg" alt="Aisa Kaisa Dosa Co" class="restaurant-img">
+        <div class="restaurant-details">
+          <div class="card-row">
+            <h3 class="res-title">Aisa Kaisa Dosa Co</h3>
+            <span class="rating"><i class="fa-solid fa-star"></i> 4.1</span>
+          </div>
+          <div class="card-row sub-info">
+            <span>Maharashtrian • South Indian</span>
+            <span>₹400 for two</span>
+          </div>
+          <div class="card-row sub-info">
+            <span>Ballupur, Dehradun</span>
+            <span>1.0 km</span>
+          </div>
+          <div class="offer-tag">
+            <span><i class="fa-solid fa-percentage"></i> Flat 35% off on pre-booking</span>
+          </div>
+          <div class="bank-offer">Up to 10% off with bank offers</div>
+          <div class="promo-offer">Get extra ₹125 off using PAYTM</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APP DOWNLOAD BANNER -->
+  <div class="app-banner-container">
+    <img src="assets/App_download_banner.png">
+  </div>
+
+  <!-- CITIES SECTION -->
+  <section class="section-container">
+    <h2>Cities with food delivery</h2>
+    <div class="cities-grid">
+      <div class="city-box">Order food online in Bangalore</div>
+      <div class="city-box">Order food online in Gurgaon</div>
+      <div class="city-box">Order food online in Hyderabad</div>
+      <div class="city-box">Order food online in Delhi</div>
+      <div class="city-box">Order food online in Mumbai</div>
+      <div class="city-box">Order food online in Pune</div>
+      <div class="city-box">Order food online in Kolkata</div>
+      <div class="city-box">Order food online in Chennai</div>
+      <div class="city-box">Order food online in Ahmedabad</div>
+      <div class="city-box">Order food online in Chandigarh</div>
+      <div class="city-box">Order food online in Jaipur</div>
+      <div class="city-box show-more">Show More <i class="fa-solid fa-chevron-down"></i></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col brand-col">
+        <div class="logo">
+          <img src="assets/swiggy_logo_white.png" alt="Swiggy" class="logo-img">
+          <span>Swiggy</span>
+        </div>
+        <p>© 2026 Swiggy Limited</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Swiggy Corporate</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Swiggy One</a></li>
+          <li><a href="#">Swiggy Instamart</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact us</h4>
+        <ul>
+          <li><a href="#">Help & Support</a></li>
+          <li><a href="#">Partner With Us</a></li>
+          <li><a href="#">Ride With Us</a></li>
+        </ul>
+        <h4 class="sub-heading">Legal</h4>
+        <ul>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Available in:</h4>
+        <ul>
+          <li><a href="#">Bangalore</a></li>
+          <li><a href="#">Gurgaon</a></li>
+          <li><a href="#">Hyderabad</a></li>
+          <li><a href="#">Delhi</a></li>
+          <li><a href="#">Mumbai</a></li>
+          <li><a href="#">Pune</a></li>
+        </ul>
+        <div class="cities-dropdown">
+          <span>685 cities</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Life at Swiggy</h4>
+        <ul>
+          <li><a href="#">Explore With Swiggy</a></li>
+          <li><a href="#">Swiggy News</a></li>
+          <li><a href="#">Snackables</a></li>
+        </ul>
+        <h4 class="sub-heading">Social Links</h4>
+        <div class="social-icons">
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-pinterest"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="app-download-footer">
+      <span>For better experience, download the Swiggy app now</span>
+      <div class="store-buttons">
+        <button class="store-btn">
+          <img src="assets/App_store.png" alt="App Store" class="store-icon">
+          App Store
+        </button>
+        <button class="store-btn">
+          <img src="assets/Google_Play.png" alt="Google Play" class="store-icon">
+          Google Play
+        </button>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
