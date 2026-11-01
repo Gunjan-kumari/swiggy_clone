@@ -21,7 +21,7 @@ This project replicates the core layout and features of Swiggy's landing page, i
  
 - Features restaurant recommendation cards complete with ratings, cuisine tags, pricing for two, distances, and active promotional/bank offers.
 
-  **App Download Banner:**
+**App Download Banner:**
   
 - A dedicated banner prompting users to download the mobile app via QR code and app store badges.
 
