@@ -12,13 +12,21 @@ This project replicates the core layout and features of Swiggy's landing page, i
  **Food Options Carousel/Grid:**
   
 - Displays popular food categories (North Indian, Burger, Pizza, Biryani, etc.) with custom images.
+
  **Instamart Grocery Section:**
+ 
 - Showcases daily essential categories like fresh vegetables, fruits, dairy, and munchies.
+
  **Dineout Restaurants Grid:**
+ 
 - Features restaurant recommendation cards complete with ratings, cuisine tags, pricing for two, distances, and active promotional/bank offers.
- **App Download Banner:**
+
+  **App Download Banner:**
+  
 - A dedicated banner prompting users to download the mobile app via QR code and app store badges.
+
  **Comprehensive Footer:**
+ 
 - Includes company links, legal information, available cities, and social media icons.
 
 ---
