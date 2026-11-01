@@ -8,7 +8,9 @@ This project replicates the core layout and features of Swiggy's landing page, i
 
  **Hero Section:**
 - Features Swiggy's signature orange branding, a navigation bar, interactive location & search inputs, and promotional service cards (Food Delivery, Instamart, and Dineout).
+ 
  **Food Options Carousel/Grid:**
+  
 - Displays popular food categories (North Indian, Burger, Pizza, Biryani, etc.) with custom images.
  **Instamart Grocery Section:**
 - Showcases daily essential categories like fresh vegetables, fruits, dairy, and munchies.
